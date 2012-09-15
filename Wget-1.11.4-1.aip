@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="9.5" version="9.5" Modules="simple" RootPath="." Language="en" Id="{80CEC97A-D30E-45F6-9CF1-C9AD7E907E2C}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="wget.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://gnuwin32.sourceforge.net/packages/wget.htm"/>
+    <ROW Property="Manufacturer" Value="GNU"/>
+    <ROW Property="ProductCode" Value="1033:{AAF11077-450C-4F3C-8508-04ABE1DEFA89} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Wget"/>
+    <ROW Property="ProductVersion" Value="1.11.4.1" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{209090AA-3203-41A7-BC41-1E30BD9A526F}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="LC_MESSAGES_10_Dir" Directory_Parent="et_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_11_Dir" Directory_Parent="eu_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_12_Dir" Directory_Parent="fi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_13_Dir" Directory_Parent="fr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_14_Dir" Directory_Parent="ga_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_15_Dir" Directory_Parent="gl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_16_Dir" Directory_Parent="he_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_17_Dir" Directory_Parent="hr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_18_Dir" Directory_Parent="hu_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_19_Dir" Directory_Parent="id_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_1_Dir" Directory_Parent="bg_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_20_Dir" Directory_Parent="it_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_21_Dir" Directory_Parent="ja_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_22_Dir" Directory_Parent="nb_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_23_Dir" Directory_Parent="nl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_24_Dir" Directory_Parent="pl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_25_Dir" Directory_Parent="pt_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_26_Dir" Directory_Parent="pt_BR_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_27_Dir" Directory_Parent="ro_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_28_Dir" Directory_Parent="ru_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_29_Dir" Directory_Parent="sk_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_2_Dir" Directory_Parent="ca_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_30_Dir" Directory_Parent="sl_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_31_Dir" Directory_Parent="sr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_32_Dir" Directory_Parent="sv_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_33_Dir" Directory_Parent="tr_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_34_Dir" Directory_Parent="uk_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_35_Dir" Directory_Parent="vi_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_36_Dir" Directory_Parent="zh_CN_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_37_Dir" Directory_Parent="zh_TW_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_3_Dir" Directory_Parent="cs_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_4_Dir" Directory_Parent="da_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_5_Dir" Directory_Parent="de_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_6_Dir" Directory_Parent="el_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_7_Dir" Directory_Parent="en_GB_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_8_Dir" Directory_Parent="eo_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_9_Dir" Directory_Parent="es_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="LC_MESSAGES_Dir" Directory_Parent="be_Dir" DefaultDir="LC_MES~1|LC_MESSAGES"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="be_Dir" Directory_Parent="locale_Dir" DefaultDir="be"/>
+    <ROW Directory="bg_Dir" Directory_Parent="locale_Dir" DefaultDir="bg"/>
+    <ROW Directory="bin_Dir" Directory_Parent="APPDIR" DefaultDir="bin"/>
+    <ROW Directory="ca_Dir" Directory_Parent="locale_Dir" DefaultDir="ca"/>
+    <ROW Directory="cs_Dir" Directory_Parent="locale_Dir" DefaultDir="cs"/>
+    <ROW Directory="da_Dir" Directory_Parent="locale_Dir" DefaultDir="da"/>
+    <ROW Directory="de_Dir" Directory_Parent="locale_Dir" DefaultDir="de"/>
+    <ROW Directory="el_Dir" Directory_Parent="locale_Dir" DefaultDir="el"/>
+    <ROW Directory="en_GB_Dir" Directory_Parent="locale_Dir" DefaultDir="en_GB"/>
+    <ROW Directory="eo_Dir" Directory_Parent="locale_Dir" DefaultDir="eo"/>
+    <ROW Directory="es_Dir" Directory_Parent="locale_Dir" DefaultDir="es"/>
+    <ROW Directory="et_Dir" Directory_Parent="locale_Dir" DefaultDir="et"/>
+    <ROW Directory="etc_Dir" Directory_Parent="APPDIR" DefaultDir="etc"/>
+    <ROW Directory="eu_Dir" Directory_Parent="locale_Dir" DefaultDir="eu"/>
+    <ROW Directory="fi_Dir" Directory_Parent="locale_Dir" DefaultDir="fi"/>
+    <ROW Directory="fr_Dir" Directory_Parent="locale_Dir" DefaultDir="fr"/>
+    <ROW Directory="ga_Dir" Directory_Parent="locale_Dir" DefaultDir="ga"/>
+    <ROW Directory="gl_Dir" Directory_Parent="locale_Dir" DefaultDir="gl"/>
+    <ROW Directory="he_Dir" Directory_Parent="locale_Dir" DefaultDir="he"/>
+    <ROW Directory="hr_Dir" Directory_Parent="locale_Dir" DefaultDir="hr"/>
+    <ROW Directory="hu_Dir" Directory_Parent="locale_Dir" DefaultDir="hu"/>
+    <ROW Directory="id_Dir" Directory_Parent="locale_Dir" DefaultDir="id"/>
+    <ROW Directory="it_Dir" Directory_Parent="locale_Dir" DefaultDir="it"/>
+    <ROW Directory="ja_Dir" Directory_Parent="locale_Dir" DefaultDir="ja"/>
+    <ROW Directory="locale_Dir" Directory_Parent="share_Dir" DefaultDir="locale"/>
+    <ROW Directory="nb_Dir" Directory_Parent="locale_Dir" DefaultDir="nb"/>
+    <ROW Directory="nl_Dir" Directory_Parent="locale_Dir" DefaultDir="nl"/>
+    <ROW Directory="pl_Dir" Directory_Parent="locale_Dir" DefaultDir="pl"/>
+    <ROW Directory="pt_BR_Dir" Directory_Parent="locale_Dir" DefaultDir="pt_BR"/>
+    <ROW Directory="pt_Dir" Directory_Parent="locale_Dir" DefaultDir="pt"/>
+    <ROW Directory="ro_Dir" Directory_Parent="locale_Dir" DefaultDir="ro"/>
+    <ROW Directory="ru_Dir" Directory_Parent="locale_Dir" DefaultDir="ru"/>
+    <ROW Directory="share_Dir" Directory_Parent="APPDIR" DefaultDir="share"/>
+    <ROW Directory="sk_Dir" Directory_Parent="locale_Dir" DefaultDir="sk"/>
+    <ROW Directory="sl_Dir" Directory_Parent="locale_Dir" DefaultDir="sl"/>
+    <ROW Directory="sr_Dir" Directory_Parent="locale_Dir" DefaultDir="sr"/>
+    <ROW Directory="sv_Dir" Directory_Parent="locale_Dir" DefaultDir="sv"/>
+    <ROW Directory="tr_Dir" Directory_Parent="locale_Dir" DefaultDir="tr"/>
+    <ROW Directory="uk_Dir" Directory_Parent="locale_Dir" DefaultDir="uk"/>
+    <ROW Directory="vi_Dir" Directory_Parent="locale_Dir" DefaultDir="vi"/>
+    <ROW Directory="zh_CN_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_CN"/>
+    <ROW Directory="zh_TW_Dir" Directory_Parent="locale_Dir" DefaultDir="zh_TW"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="ProductInformation" ComponentId="{81C60170-7E81-49BC-AAC4-29940530F5ED}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="wget.exe" ComponentId="{63FC8D44-926B-4CA6-A94F-C8E47A42EEF4}" Directory_="bin_Dir" Attributes="0" KeyPath="wget.exe"/>
+    <ROW Component="wget.mo" ComponentId="{115955B5-E9DA-4C6C-9F6C-80FDBBAF9F9C}" Directory_="LC_MESSAGES_Dir" Attributes="0" KeyPath="wget.mo" Type="0"/>
+    <ROW Component="wget.mo_1" ComponentId="{663228A7-D338-4F8F-A27F-764EE74EDC7D}" Directory_="LC_MESSAGES_1_Dir" Attributes="0" KeyPath="wget.mo_1" Type="0"/>
+    <ROW Component="wget.mo_10" ComponentId="{3EA20E05-3331-4506-98E8-620C794233C8}" Directory_="LC_MESSAGES_10_Dir" Attributes="0" KeyPath="wget.mo_10" Type="0"/>
+    <ROW Component="wget.mo_11" ComponentId="{31028F88-8992-4695-93B7-397A0AE61712}" Directory_="LC_MESSAGES_11_Dir" Attributes="0" KeyPath="wget.mo_11" Type="0"/>
+    <ROW Component="wget.mo_12" ComponentId="{0B4E2BFC-F8A2-45C9-B8D4-EDE8967E9CE3}" Directory_="LC_MESSAGES_12_Dir" Attributes="0" KeyPath="wget.mo_12" Type="0"/>
+    <ROW Component="wget.mo_13" ComponentId="{82DAE872-7DCB-4B95-B0F3-64C8BA5B78AE}" Directory_="LC_MESSAGES_13_Dir" Attributes="0" KeyPath="wget.mo_13" Type="0"/>
+    <ROW Component="wget.mo_14" ComponentId="{5F5CCB1C-6F01-484A-9334-B876FFDE5289}" Directory_="LC_MESSAGES_14_Dir" Attributes="0" KeyPath="wget.mo_14" Type="0"/>
+    <ROW Component="wget.mo_15" ComponentId="{A0ABA6FE-C40F-4F0C-BCAC-8FA2F34E5D73}" Directory_="LC_MESSAGES_15_Dir" Attributes="0" KeyPath="wget.mo_15" Type="0"/>
+    <ROW Component="wget.mo_16" ComponentId="{03A5C344-7EE4-4EFB-B798-342A32C160EF}" Directory_="LC_MESSAGES_16_Dir" Attributes="0" KeyPath="wget.mo_16" Type="0"/>
+    <ROW Component="wget.mo_17" ComponentId="{662BB9C5-F71E-4EB1-A9B9-682BFF9496D2}" Directory_="LC_MESSAGES_17_Dir" Attributes="0" KeyPath="wget.mo_17" Type="0"/>
+    <ROW Component="wget.mo_18" ComponentId="{75B27D82-70CE-4744-A09B-CC3FC96A1A9D}" Directory_="LC_MESSAGES_18_Dir" Attributes="0" KeyPath="wget.mo_18" Type="0"/>
+    <ROW Component="wget.mo_19" ComponentId="{F158B03B-094B-45BE-8683-C225512DBFA6}" Directory_="LC_MESSAGES_19_Dir" Attributes="0" KeyPath="wget.mo_19" Type="0"/>
+    <ROW Component="wget.mo_2" ComponentId="{9548C4B1-1E93-4337-AA97-2EEFB2D08E90}" Directory_="LC_MESSAGES_2_Dir" Attributes="0" KeyPath="wget.mo_2" Type="0"/>
+    <ROW Component="wget.mo_20" ComponentId="{AFE6610A-5D94-40FA-9F62-9FF6DA772809}" Directory_="LC_MESSAGES_20_Dir" Attributes="0" KeyPath="wget.mo_20" Type="0"/>
+    <ROW Component="wget.mo_21" ComponentId="{1E76D7C0-5E32-4C46-98EA-6B2E87831C09}" Directory_="LC_MESSAGES_21_Dir" Attributes="0" KeyPath="wget.mo_21" Type="0"/>
+    <ROW Component="wget.mo_22" ComponentId="{0C96E669-555B-4230-AC47-52ABA64A36B4}" Directory_="LC_MESSAGES_22_Dir" Attributes="0" KeyPath="wget.mo_22" Type="0"/>
+    <ROW Component="wget.mo_23" ComponentId="{58EB44B4-EE92-4141-87B3-00DCCF49D151}" Directory_="LC_MESSAGES_23_Dir" Attributes="0" KeyPath="wget.mo_23" Type="0"/>
+    <ROW Component="wget.mo_24" ComponentId="{7D164C0F-6C36-44F2-8A80-5CBD53A8D7B3}" Directory_="LC_MESSAGES_24_Dir" Attributes="0" KeyPath="wget.mo_24" Type="0"/>
+    <ROW Component="wget.mo_25" ComponentId="{A021F462-CB33-4D49-A196-5316B70EACAD}" Directory_="LC_MESSAGES_25_Dir" Attributes="0" KeyPath="wget.mo_25" Type="0"/>
+    <ROW Component="wget.mo_26" ComponentId="{A8FAFD8B-3F45-439C-B114-5C0F6D758D43}" Directory_="LC_MESSAGES_26_Dir" Attributes="0" KeyPath="wget.mo_26" Type="0"/>
+    <ROW Component="wget.mo_27" ComponentId="{8B65AB7B-0757-4F3F-9F21-5D704555DA51}" Directory_="LC_MESSAGES_27_Dir" Attributes="0" KeyPath="wget.mo_27" Type="0"/>
+    <ROW Component="wget.mo_28" ComponentId="{9887B5E5-7BD5-4197-9D56-ECDBE3C7A755}" Directory_="LC_MESSAGES_28_Dir" Attributes="0" KeyPath="wget.mo_28" Type="0"/>
+    <ROW Component="wget.mo_29" ComponentId="{DF6A5FC7-4C93-4ED5-96CC-B08B02CC09FC}" Directory_="LC_MESSAGES_29_Dir" Attributes="0" KeyPath="wget.mo_29" Type="0"/>
+    <ROW Component="wget.mo_3" ComponentId="{24C4340A-4AEE-4493-A40E-E706197F5F41}" Directory_="LC_MESSAGES_3_Dir" Attributes="0" KeyPath="wget.mo_3" Type="0"/>
+    <ROW Component="wget.mo_30" ComponentId="{C20A4A60-642C-4431-9628-6557FB6B9FB5}" Directory_="LC_MESSAGES_30_Dir" Attributes="0" KeyPath="wget.mo_30" Type="0"/>
+    <ROW Component="wget.mo_31" ComponentId="{B9624676-D66E-437C-9079-75DA06F93DFC}" Directory_="LC_MESSAGES_31_Dir" Attributes="0" KeyPath="wget.mo_31" Type="0"/>
+    <ROW Component="wget.mo_32" ComponentId="{4A30A767-0661-4C68-80D2-844F47F36063}" Directory_="LC_MESSAGES_32_Dir" Attributes="0" KeyPath="wget.mo_32" Type="0"/>
+    <ROW Component="wget.mo_33" ComponentId="{902246A9-B226-46D9-A01E-AC925D2D90A9}" Directory_="LC_MESSAGES_33_Dir" Attributes="0" KeyPath="wget.mo_33" Type="0"/>
+    <ROW Component="wget.mo_34" ComponentId="{B3E2825F-8769-4B0E-909B-4CF4917D0795}" Directory_="LC_MESSAGES_34_Dir" Attributes="0" KeyPath="wget.mo_34" Type="0"/>
+    <ROW Component="wget.mo_35" ComponentId="{EC139B81-3833-42BD-AD72-6939C1C724A6}" Directory_="LC_MESSAGES_35_Dir" Attributes="0" KeyPath="wget.mo_35" Type="0"/>
+    <ROW Component="wget.mo_36" ComponentId="{FB4863A2-EAD6-4FF5-AB7A-AD831C91F024}" Directory_="LC_MESSAGES_36_Dir" Attributes="0" KeyPath="wget.mo_36" Type="0"/>
+    <ROW Component="wget.mo_37" ComponentId="{3011840B-5D32-4046-A117-EC58557EDE7E}" Directory_="LC_MESSAGES_37_Dir" Attributes="0" KeyPath="wget.mo_37" Type="0"/>
+    <ROW Component="wget.mo_4" ComponentId="{C9BD0000-F08B-4223-8BAE-4FD91C80F270}" Directory_="LC_MESSAGES_4_Dir" Attributes="0" KeyPath="wget.mo_4" Type="0"/>
+    <ROW Component="wget.mo_5" ComponentId="{49BFF8A6-4F94-4AB3-ABC7-BD088DEDCB16}" Directory_="LC_MESSAGES_5_Dir" Attributes="0" KeyPath="wget.mo_5" Type="0"/>
+    <ROW Component="wget.mo_6" ComponentId="{6FF1D347-E388-4732-B2AC-960F2953F9BF}" Directory_="LC_MESSAGES_6_Dir" Attributes="0" KeyPath="wget.mo_6" Type="0"/>
+    <ROW Component="wget.mo_7" ComponentId="{D5165A84-B336-4E4D-A4FB-2D5D0A43049F}" Directory_="LC_MESSAGES_7_Dir" Attributes="0" KeyPath="wget.mo_7" Type="0"/>
+    <ROW Component="wget.mo_8" ComponentId="{E7557DE5-549E-4B4E-AB69-A547A66BA7DE}" Directory_="LC_MESSAGES_8_Dir" Attributes="0" KeyPath="wget.mo_8" Type="0"/>
+    <ROW Component="wget.mo_9" ComponentId="{7D3E5B21-4999-4FCB-872B-4FE686A8538B}" Directory_="LC_MESSAGES_9_Dir" Attributes="0" KeyPath="wget.mo_9" Type="0"/>
+    <ROW Component="wgetrc" ComponentId="{FDA2A5B5-6697-40DB-8A53-F91A43469330}" Directory_="etc_Dir" Attributes="0" KeyPath="wgetrc" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation wget.exe wget.mo wget.mo_1 wget.mo_10 wget.mo_11 wget.mo_12 wget.mo_13 wget.mo_14 wget.mo_15 wget.mo_16 wget.mo_17 wget.mo_18 wget.mo_19 wget.mo_2 wget.mo_20 wget.mo_21 wget.mo_22 wget.mo_23 wget.mo_24 wget.mo_25 wget.mo_26 wget.mo_27 wget.mo_28 wget.mo_29 wget.mo_3 wget.mo_30 wget.mo_31 wget.mo_32 wget.mo_33 wget.mo_34 wget.mo_35 wget.mo_36 wget.mo_37 wget.mo_4 wget.mo_5 wget.mo_6 wget.mo_7 wget.mo_8 wget.mo_9 wgetrc"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="wget.exe" Component_="wget.exe" FileName="wget.exe" Attributes="0" SourcePath="wget-1.11.4-1-bin\bin\wget.exe" SelfReg="false" NextFile="wgetrc"/>
+    <ROW File="wget.mo" Component_="wget.mo" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\be\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_1"/>
+    <ROW File="wget.mo_1" Component_="wget.mo_1" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\bg\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_2"/>
+    <ROW File="wget.mo_10" Component_="wget.mo_10" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\et\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_11"/>
+    <ROW File="wget.mo_11" Component_="wget.mo_11" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\eu\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_12"/>
+    <ROW File="wget.mo_12" Component_="wget.mo_12" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\fi\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_13"/>
+    <ROW File="wget.mo_13" Component_="wget.mo_13" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\fr\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_14"/>
+    <ROW File="wget.mo_14" Component_="wget.mo_14" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\ga\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_15"/>
+    <ROW File="wget.mo_15" Component_="wget.mo_15" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\gl\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_16"/>
+    <ROW File="wget.mo_16" Component_="wget.mo_16" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\he\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_17"/>
+    <ROW File="wget.mo_17" Component_="wget.mo_17" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\hr\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_18"/>
+    <ROW File="wget.mo_18" Component_="wget.mo_18" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\hu\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_19"/>
+    <ROW File="wget.mo_19" Component_="wget.mo_19" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\id\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_20"/>
+    <ROW File="wget.mo_2" Component_="wget.mo_2" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\ca\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_3"/>
+    <ROW File="wget.mo_20" Component_="wget.mo_20" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\it\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_21"/>
+    <ROW File="wget.mo_21" Component_="wget.mo_21" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\ja\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_22"/>
+    <ROW File="wget.mo_22" Component_="wget.mo_22" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\nb\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_23"/>
+    <ROW File="wget.mo_23" Component_="wget.mo_23" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\nl\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_24"/>
+    <ROW File="wget.mo_24" Component_="wget.mo_24" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\pl\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_25"/>
+    <ROW File="wget.mo_25" Component_="wget.mo_25" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\pt\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_26"/>
+    <ROW File="wget.mo_26" Component_="wget.mo_26" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\pt_BR\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_27"/>
+    <ROW File="wget.mo_27" Component_="wget.mo_27" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\ro\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_28"/>
+    <ROW File="wget.mo_28" Component_="wget.mo_28" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\ru\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_29"/>
+    <ROW File="wget.mo_29" Component_="wget.mo_29" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\sk\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_30"/>
+    <ROW File="wget.mo_3" Component_="wget.mo_3" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\cs\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_4"/>
+    <ROW File="wget.mo_30" Component_="wget.mo_30" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\sl\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_31"/>
+    <ROW File="wget.mo_31" Component_="wget.mo_31" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\sr\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_32"/>
+    <ROW File="wget.mo_32" Component_="wget.mo_32" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\sv\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_33"/>
+    <ROW File="wget.mo_33" Component_="wget.mo_33" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\tr\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_34"/>
+    <ROW File="wget.mo_34" Component_="wget.mo_34" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\uk\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_35"/>
+    <ROW File="wget.mo_35" Component_="wget.mo_35" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\vi\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_36"/>
+    <ROW File="wget.mo_36" Component_="wget.mo_36" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\zh_CN\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_37"/>
+    <ROW File="wget.mo_37" Component_="wget.mo_37" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\zh_TW\LC_MESSAGES\wget.mo" SelfReg="false"/>
+    <ROW File="wget.mo_4" Component_="wget.mo_4" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\da\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_5"/>
+    <ROW File="wget.mo_5" Component_="wget.mo_5" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\de\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_6"/>
+    <ROW File="wget.mo_6" Component_="wget.mo_6" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\el\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_7"/>
+    <ROW File="wget.mo_7" Component_="wget.mo_7" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\en_GB\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_8"/>
+    <ROW File="wget.mo_8" Component_="wget.mo_8" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\eo\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_9"/>
+    <ROW File="wget.mo_9" Component_="wget.mo_9" FileName="wget.mo" Attributes="0" SourcePath="wget-1.11.4-1-bin\share\locale\es\LC_MESSAGES\wget.mo" SelfReg="false" NextFile="wget.mo_10"/>
+    <ROW File="wgetrc" Component_="wgetrc" FileName="wgetrc" Attributes="0" SourcePath="wget-1.11.4-1-bin\etc\wgetrc" SelfReg="false" NextFile="wget.mo"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="Wget-1.11.4-1" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ATTRIBUTE name="FixedSizeBitmaps" value="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Type="1" Source="aicustact.dll" Target="GetLocalizedCredentials"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="PATH" Name="=-PATH" Value="[~];[APPDIR]bin" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="wget.exe" SourcePath="wget-1.11.4-1-bin\bin\wget.exe" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_ResolveLocalizedCredentials" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
